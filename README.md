@@ -13,7 +13,7 @@ This repository contains implementation of the algorithm, described in “Wavele
 
 ### Data Description
 
-The paper used an entirely synthetic dataset, to which they added Gaussian noise. However, we had raw neural data from rats' brains provided by our professor Shaoyk Dutta from Rice University, which we then filtered out using smoothing and thresholding. We used the data from one of the tetrodes, not all of them, because using all of them would have extremely high computational cost and we could proof the effectiveness of our implementation with much less data as it is not a machine learning model and in fact the detection algorithm is real-time, it does not need the entire dataset to work efficiently. 
+The paper used an entirely synthetic dataset, to which they added Gaussian noise. However, we had raw neural data from rats' brains provided by our professor Shayok Dutta from Rice University, which we then filtered out using smoothing and thresholding. We used the data from one of the tetrodes, not all of them, because using all of them would have extremely high computational cost and we could proof the effectiveness of our implementation with much less data as it is not a machine learning model and in fact the detection algorithm is real-time, it does not need the entire dataset to work efficiently. 
 
 More specifically, the raw data we used is spikes_ep2 from tetrode12.mat. The shape of this data is 22730202 by 4, because there are 4 channels and the number of waveform samples is 22730202. 
     
